@@ -1,0 +1,264 @@
+.box{
+   width: 1300px;
+   height: 900px;
+   border: 100px solid rgb black;
+   display: flex;
+}
+
+.box2 {
+     width: 1800px;
+     height: 850px;
+     background-color: rgba(14, 128, 235, 0.404);
+    border-radius: 80px;
+     position: relative;
+     top: 150px;
+     left: 55px;
+     
+}
+.box1 {
+     width: 200px;
+     height: 400px;
+     background-color: rgb(255, 255, 255);
+     position: relative;
+     bottom: 300px;
+     left: 1200px;
+     border-radius: 60px;
+
+}
+body{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-image: url("Screenshot\ 2024-09-19\ 152329.png");
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+
+a {   
+    color: rgb(80, 197, 255);   
+}
+
+a:active {
+    color: blue;
+}
+
+a[tabindex]:focus {
+    color:blue;
+    outline: none;
+}
+
+body {
+    margin: 0; /* Removes any default margins */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+/* andre kode*/
+
+
+h1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+
+body {
+       background-image:url(teampic2\ ft.jpg) ;
+       background-size: cover;
+       background-position: center; /* Center the image within the container */
+       width: 100%;
+       height: 565px; /* Adjust the height as needed */
+    
+
+}
+
+.transparent-border-box {
+    border: 5px solid rgba(0, 0, 0, 0.5); /* Border color and transparency */
+    background-color: rgba(0, 0, 0, 0.5); /*  mørkere transpeant farge Transparent inside */
+    padding: 20px; /* Space inside the box */
+    border-radius: 20px; /* Optional: rounded corners */
+    width: 300px; /* Width of the box */
+    height: 499px;
+    text-align: center; /* Center the text */
+}
+
+p {
+    color: rgb(255, 255, 255); /* This will apply to all <p> elements */
+}
+
+.transparent-border-box1 {
+    border: 5px solid rgba(0, 0, 0, 0.5); /* Border color and transparency */
+    background-color: rgba(0, 0, 0, 0.5); /* mørkere transperant farge  */
+    padding: 20px; /* Space inside the box */
+    border-radius: 20px; /* Optional: rounded corners */
+    width: 300px; /* Width of the box */
+    height: 450px;
+    text-align: center; /* Center the text */
+}
+
+.transparent-border-box1 {
+    position: relative;
+    bottom: 500px; /* Move down 20 pixels */
+    left: 500px; /* Move right 30 pixels */
+}
+
+
+.outlined-text {
+    color: white; 
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black; 
+}
+
+.bordered-text {
+    border: 5px solid rgb(210, 210, 210); /* Border style, width, and color */
+    padding: 10px;           /* Space between the text and border */
+    display: inline;        /* Keeps it inline with surrounding text */
+    border-radius: 80px;
+}
+
+a {   
+    color: rgb(0, 255, 251);   
+}
+
+a:active {
+    color: blue;
+}
+
+.boxu {
+     width: 160px;
+     height: 200px;
+     border-radius: 50px;
+     color: rgb(0, 0, 0);
+
+
+}
+
+/* meny design */
+
+/* Menystil */
+.boxu {
+    background-color: rgb(86, 188, 247); /* Add the missing semicolon here */
+    text-align: right;       /* Aligns text to the right */
+    padding: 10px 0;         /* Adds padding above and below */
+}
+
+.boxu {
+    list-style: none; /* Fjerner punktmerker */
+    margin: 0;
+    padding: 0;
+}
+
+.boxu li {
+    display: inline; /* Plasserer menyen horisontalt */
+    margin: 0 15px;  /* Mellomrom mellom elementene */
+}
+
+.boxu li a {
+    color: white;              /* Hvit tekst */
+    text-decoration: none;      /* Fjerner understreking */
+    padding: 5px 10px;          /* Litt luft rundt teksten */
+    transition: color 0.3s;     /* Enkel overgang på tekstfarge */
+}
+
+.boxu li a:hover {
+    color: #8bf1ff; /* Endrer tekstfarge ved hover */
+}
+
+/*meny for termin */
+
+
+.box1 {
+    background-color: #333; /* Mørk bakgrunn */
+    text-align: center;     /* Sentraliserer menyen */
+    padding: 10px 0;        /* Litt luft over og under menyen */
+}
+
+.box1 {
+    list-style: none; /* Fjerner punktmerker */
+    margin: 0;
+    padding: 0;
+}
+
+.box1 li {
+    display: inline; /* Plasserer menyen horisontalt */
+    margin: 0 15px;  /* Mellomrom mellom elementene */
+}
+
+.box1 li a {
+    color: white;              /* Hvit tekst */
+    text-decoration: none;      /* Fjerner understreking */
+    padding: 5px 10px;          /* Litt luft rundt teksten */
+    transition: color 0.3s;     /* Enkel overgang på tekstfarge */
+}
+
+.box1 li a:hover {
+    color: #ffcc00; /* Endrer tekstfarge ved hover */
+}
+
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+/*logo panda home buttn*/
+
+
+
+/* menu termin position*/
+
+.boxu {
+    position: absolute;
+    top: 370px;  /* 50px from the top */
+  left: 1300px;   /* Aligns it to the right edge of the container */
+}
+
+/* phot postion*/
+
+.kart {
+    margin-top: -1100px;
+    padding-left: 900px;
+}
+
+.kart1 {
+    margin-bottom: -auto;
+    padding-left: 900px;
+
+
+}
+
+
+.logo  {
+
+    top: 0;
+    position: absolute;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  
